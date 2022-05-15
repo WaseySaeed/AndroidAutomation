@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="false"> <!--Parallel parameter runs testcases in parallel-->
+    <test verbose="2" preserve-order="true" name="/Users/syedwasey/IdeaProjects/AndroidFrameWork">
+        <classes>
+            <class name="FeatureTests.SampleTest">
+            <methods>
+                <include name="searchForPlace"/>
+                <include name="VerifyDetailOfTheLocation"/>
+            </methods>
+            </class>
+        </classes>
+
+    </test>
+</suite>
