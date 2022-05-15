@@ -36,6 +36,7 @@ public class BaseTest {
         DC.setCapability(MobileCapabilityType.UDID,AndroidUdid);
         DC.setCapability("appPackage", AppPackage);
         DC.setCapability("appActivity",AppActivity);
+        DC.setCapability("appium:noSign","true");
         URL url = new URL(URL);
         driver = new AndroidDriver(url,DC);
         // For Implicit Wait of find elements before exception throw

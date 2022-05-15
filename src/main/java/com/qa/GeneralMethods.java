@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
-public class GenericMethods extends BaseTest{
+public class GeneralMethods extends BaseTest{
     public static void waitForVisibility(MobileElement locator) {
         WebDriverWait wait = new WebDriverWait(driver, 60);
         wait.until(ExpectedConditions.visibilityOf(locator));
